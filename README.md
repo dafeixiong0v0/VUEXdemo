@@ -50,12 +50,16 @@ export default new Vuex.Store({
 })
 这样我们就可以很轻松的把一个store拆分成多个
 ```
-##四、 总结 
+## 四、总结 
 >> actions 的参数是 store 对象,而 getters 和 mutations 的参数是 state .
->>actions 和 mutations 还可以传第二个参数,具体看vuex官方文档
->>getters/mutations/actions 都有对应的map,如: mapGetters , 具体看vuex官方文档
->>模块内部如果怕有命名冲突的话,可以使用命名空间, 具体看vuex官方文档
->>vuex 其实跟 vue 非常像,有data(state),methods(mutations,actions),computed(getters),还能模块化.
-如果觉得本文对您有用，请给本文的github加个star,万分感谢
+
+>> actions 和 mutations 还可以传第二个参数,具体看vuex官方文档
+
+>> getters/mutations/actions 都有对应的map,如: mapGetters , 具体看vuex官方文档
+
+>> 模块内部如果怕有命名冲突的话,可以使用命名空间, 具体看vuex官方文档
+
+>> vuex 其实跟 vue 非常像,有data(state),methods(mutations,actions),computed(getters),还能模块化.
+    如果觉得本文对您有用，请给本文的github加个star,万分感谢
  [本实例来自github](https://github.com/noahlam/articles/blob/master/vuex%E5%85%B6%E5%AE%9E%E8%B6%85%E7%AE%80%E5%8D%95%2C%E5%96%9D%E5%AE%8C%E8%BF%993%E6%AD%A5%2C%E8%BF%98%E6%9C%893%E6%AD%A5.md#%E5%9B%9B-%E6%80%BB%E7%BB%93)
 另外，github上还有其他一些关于前端的教程和组件，有兴趣的童鞋可以看看，你们的支持就是我最大的动力。
