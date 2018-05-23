@@ -49,7 +49,7 @@ export default new Vuex.Store({
     }
 })
 这样我们就可以很轻松的把一个store拆分成多个
-
+```
 # 四、 总结 
  >> actions 的参数是 store 对象,而 getters 和 mutations 的参数是 state .
 >>actions 和 mutations 还可以传第二个参数,具体看vuex官方文档
